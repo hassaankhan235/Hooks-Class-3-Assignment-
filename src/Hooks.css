@@ -1,0 +1,35 @@
+.room {
+    margin: 0;
+    padding-left: 3%;
+    padding-top: 1%;
+    height: 100%;
+}
+.light {
+    background-color: aliceblue;
+    color: brown;
+}
+.dark {
+    background-color: black;
+    color: cornsilk;
+}
+.container {
+    float: left;
+}
+h1:nth-last-child(6) {
+text-align: center;
+margin-left: auto;
+}
+
+h1:nth-last-child(1) {
+    margin-left: 400px;
+}
+h2 {
+    color: teal;
+    margin-left: 400px;
+}
+button:nth-of-type(2), button:nth-of-type(3) {
+    margin-top: 5px;
+}
+button {
+    width: 200px;
+}
